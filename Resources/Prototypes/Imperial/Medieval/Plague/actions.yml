@@ -309,4 +309,3 @@
       useDelay: 90
     - type: InstantAction
       event: !type:RevertPolymorphActionEvent
-        cost: 1
