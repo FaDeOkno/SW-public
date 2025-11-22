@@ -37,6 +37,7 @@
     icon:
       sprite: Imperial/Medieval/Interface/Werewolf/actions.rsi
       state: howl
+    useDelay: 60
   - type: InstantAction
     event: !type:WerewolfHowlActionEvent
 
@@ -98,6 +99,7 @@
     icon:
       sprite: Imperial/Medieval/Interface/Werewolf/actions.rsi
       state: groupheal
+    useDelay: 75
   - type: InstantAction
     event: !type:WerewolfHealAlliesActionEvent
       sound:
@@ -114,6 +116,7 @@
     icon:
       sprite: Imperial/Medieval/Interface/Werewolf/actions.rsi
       state: heal
+    useDelay: 90
   - type: InstantAction
     event: !type:WerewolfRegenActionEvent
       sound:
@@ -130,6 +133,7 @@
     icon:
       sprite: Imperial/Medieval/Interface/Werewolf/actions.rsi
       state: hotblood
+    useDelay: 60
   - type: InstantAction
     event: !type:WerewolfStatusEffectActionEvent
       key: MedievalWerewolfHotBlood
@@ -150,6 +154,7 @@
     icon:
       sprite: Imperial/Medieval/Interface/Werewolf/actions.rsi
       state: hunt
+    useDelay: 150
   - type: InstantAction
     event: !type:WerewolfStatusEffectActionEvent
       key: MedievalWerewolfHunt
@@ -169,6 +174,7 @@
     icon:
       sprite: Imperial/Medieval/Interface/Werewolf/actions.rsi
       state: moon
+    useDelay: 180
   - type: InstantAction
     event: !type:WerewolfStatusEffectActionEvent
       key: MedievalWerewolfMoonRage
@@ -192,6 +198,7 @@
     iconOn:
       sprite: Imperial/Medieval/Interface/Werewolf/actions.rsi
       state: tearingon
+    useDelay: 20
   - type: InstantAction
     event: !type:WerewolfTearingActionEvent
       sound:
@@ -208,6 +215,7 @@
     icon:
       sprite: Imperial/Medieval/Interface/Werewolf/actions.rsi
       state: dash
+    useDelay: 60
   - type: InstantAction
     event: !type:WerewolfShadowDashActionEvent
       sound:
